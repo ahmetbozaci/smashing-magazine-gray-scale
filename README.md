@@ -1,0 +1,1 @@
+# -SmashingMagazine-GrayScale

@@ -43,10 +43,33 @@ body {
 .nav-bar li {
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .nav-bar a {
-  padding: 0.35em 0;
+  padding: 0.5em 0.9rem;
   text-decoration: none;
   color: white;
+  
+}
+/* .nav-bar a:hover:nth-last-child(2) {
+    
+    background-color: red;
+    border-radius: 9px;
+} */
+
+
+.search-bar {
+    width: 350px;
+    height: 60px;
+    border-radius: 12px;
+    padding-left: 50px;
+    font-size: 1.4rem;
+}
+
+.fa-search{
+    position: absolute;
+    top: 20px ;
+    left: 20px;
+    
 }

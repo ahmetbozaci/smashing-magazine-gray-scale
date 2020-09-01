@@ -1,150 +1,22 @@
-/*
-  ========================================
-  CSS Reset
-  ========================================
-*/
+/* CSS Reset */
 
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-a,
-abbr,
-acronym,
-address,
-applet,
-article,
-aside,
-audio,
-b,
-big,
-blockquote,
-body,
-canvas,
-caption,
-center,
-cite,
-code,
-dd,
-del,
-details,
-dfn,
-div,
-dl,
-dt,
-em,
-embed,
-fieldset,
-figcaption,
-figure,
-footer,
-form,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-header,
-hgroup,
-html,
-i,
-iframe,
-img,
-ins,
-kbd,
-label,
-legend,
-li,
-mark,
-menu,
-nav,
-object,
-ol,
-output,
-p,
-pre,
-q,
-ruby,
-s,
-samp,
-section,
-small,
-span,
-strike,
-strong,
-sub,
-summary,
-sup,
-table,
-tbody,
-td,
-tfoot,
-th,
-thead,
-time,
-tr,
-tt,
-u,
-ul,
-var,
-video {
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-}
-
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
+  font-family: 'Balsamiq Sans', cursive;
 }
 
 body {
-  line-height: 1;
+  height: 100%;
 }
-
-ol,
-ul {
-  list-style: none;
-}
-
-blockquote,
-q {
-  quotes: none;
-}
-
-blockquote::after,
-blockquote::before,
-q::after,
-q::before {
-  content: '';
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
 /*
   ========================================
   General 
   ========================================
 */
-.flex{
-    display: flex;
+.flex {
+  display: flex;
 }
 
 /*
@@ -152,17 +24,29 @@ table {
   Navigation Bar
   ========================================
 */
-/* header{
-    width: 100%;
-    height: auto;
-} */
-.nav-bar{
-    justify-content: space-around;
-    align-items: center;
-    background-color: #808080;
-    padding: 35px;
-    font-size: 1.2rem;
-    font-weight: 400;
-    font-family: 'Courier New', Courier, monospace;
-   
+
+.nav-bar {
+  justify-content: space-around;
+  align-items: center;
+  background-color: #808080;
+  padding: 15px 35px;
+  font-size: 1.3rem;
+  font-weight: 400;
+  font-family: 'Courier New', Courier, monospace;
+  list-style-type: none;
+}
+
+.nav-logo {
+  width: 175px;
+}
+
+.nav-bar li {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-bar a {
+  padding: 0.35em 0;
+  text-decoration: none;
+  color: white;
 }

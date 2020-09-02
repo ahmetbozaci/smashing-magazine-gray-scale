@@ -57,7 +57,6 @@ body {
   list-style-type: none;
 }
 
-
 .nav-bar li {
   display: flex;
   justify-content: center;
@@ -68,11 +67,6 @@ body {
 
 }
 
-
-
-
-
-
 .logo {
   width: 200px;
   height: 70px;
@@ -82,4 +76,30 @@ body {
 .nav-items { 
   width: 100px;
   height: 50px;
+}
+
+/*
+  ========================================
+  Main
+  ========================================
+*/
+
+
+
+.article1{
+  width: 740px ;
+  height: 400px;
+  border-radius: 0px;
+  margin-top: 10px;
+}
+.avatar {
+  width: 75px;
+  height: 75px;
+  margin: 100px 0 0 100px;
+}
+
+.title{
+  width: 300px;
+  height: 75px;
+  margin: 10px 0 0 100px
 }

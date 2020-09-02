@@ -166,3 +166,48 @@ body {
   height: 2.7rem;
   margin: 5rem 0.8rem 0.8rem 0.8rem;
 }
+
+
+/* section 3*/
+
+.sign-up {
+  margin: 2.3rem auto ;
+  width: 95% ;
+  height: 600px ;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.title-sign {
+  width: 14%;
+  height: 25%;
+  margin: 1.3rem 0 0 0;
+  color: white;
+  padding: 0.4rem;
+}
+
+.author-sign {
+  width: 35%;
+  height: 10%;
+  margin: 1.6rem 0.8rem;
+}
+
+.text-sign {
+  width: 45%;
+  margin: 0.8rem;
+  color: white;
+  padding: 0.9rem;
+}
+
+.sign-btn {
+  width: 30%;
+  height: 3.7rem;
+  margin: 5rem 0.8rem 0.8rem 0.8rem;
+}
+
+.more-articles {
+  width: 20%;
+  height: 50px;
+  margin: 100px auto;
+}

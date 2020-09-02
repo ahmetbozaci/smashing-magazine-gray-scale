@@ -19,31 +19,31 @@ body {
   display: flex;
 }
 
-.grey1{
+.grey1 {
   background-color: #000;
   border-radius: 10px;
-  }
-  
-  .grey2 {
-    background-color: #4e4e4e;
-    border-radius: 10px;
-  }
+}
 
-  .grey3 {
-    background-color: #979797;
-    border-radius: 10px;
-  }
+.grey2 {
+  background-color: #4e4e4e;
+  border-radius: 10px;
+}
 
-  .grey4 {
-    background-color: #ebebeb;
-    border-radius: 10px;
-  }
+.grey3 {
+  background-color: #979797;
+  border-radius: 10px;
+}
 
-  .grey5 {
-    background-color: #ffffff;
-    border-radius: 10px;
-  }
-  
+.grey4 {
+  background-color: #ebebeb;
+  border-radius: 10px;
+}
+
+.grey5 {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
 /*
   ========================================
   Navigation Bar
@@ -64,16 +64,14 @@ body {
 
 .search-bar {
   padding-left: 50px;
-
 }
 
 .logo {
   width: 200px;
   height: 70px;
-  
 }
 
-.nav-items { 
+.nav-items {
   width: 100px;
   height: 50px;
 }
@@ -84,13 +82,16 @@ body {
   ========================================
 */
 
+.section1 {
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
-
-.article1{
-  width: 740px ;
+.article1 {
+  width: 48%;
   height: 400px;
   border-radius: 0px;
-  margin-top: 10px;
+  margin: 10px;
 }
 .avatar {
   width: 75px;
@@ -98,8 +99,8 @@ body {
   margin: 100px 0 0 100px;
 }
 
-.title{
+.title {
   width: 300px;
   height: 75px;
-  margin: 10px 0 0 100px
+  margin: 10px 0 0 100px;
 }

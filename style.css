@@ -19,6 +19,31 @@ body {
   display: flex;
 }
 
+.grey1{
+  background-color: #000;
+  border-radius: 10px;
+  }
+  
+  .grey2 {
+    background-color: #4e4e4e;
+    border-radius: 10px;
+  }
+
+  .grey3 {
+    background-color: #979797;
+    border-radius: 10px;
+  }
+
+  .grey4 {
+    background-color: #ebebeb;
+    border-radius: 10px;
+  }
+
+  .grey5 {
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  
 /*
   ========================================
   Navigation Bar
@@ -28,59 +53,33 @@ body {
 .nav-bar {
   justify-content: space-around;
   align-items: center;
-  background-color: #808080;
   padding: 15px 35px;
-  font-size: 1.3rem;
-  font-weight: 400;
-  font-family: 'Courier New', Courier, monospace;
   list-style-type: none;
 }
 
-.nav-logo {
-  width: 175px;
-}
 
 .nav-bar li {
   display: flex;
   justify-content: center;
-  position: relative;
-}
-
-.nav-bar a {
-  padding: 0.5em 0.9rem;
-  text-decoration: none;
-  color: white;
-}
-
-.nav-bar li:hover:nth-child(n + 2):nth-child(-n + 8) {
-  background-color: rgb(66, 66, 66);
-  border-radius: 9px;
-}
-
-#last-nav-itm {
-  background-color: rgb(80, 80, 80);
-  border-radius: 9px;
-}
-
-#last-nav-itm:hover {
-  background-color: rgb(8, 2, 2);
-  border-radius: 9px;
 }
 
 .search-bar {
-  width: 350px;
-  height: 60px;
-  border-radius: 12px;
   padding-left: 50px;
-  font-size: 1.4rem;
+
 }
 
-.search-bar:focus {
-  outline: 3px dotted black;
+
+
+
+
+
+.logo {
+  width: 200px;
+  height: 70px;
+  
 }
 
-.fa-search {
-  position: absolute;
-  top: 20px;
-  left: 20px;
+.nav-items { 
+  width: 100px;
+  height: 50px;
 }

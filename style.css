@@ -344,6 +344,7 @@ body {
 .red-text {
   width: 90%;
   height: 100px;
+  padding: 20px;
 }
 
 .red-button {
@@ -413,6 +414,7 @@ body {
   width: 90%;
   height: 100px;
   align-self: center;
+  padding: 10px;
 }
 
 .input {
@@ -425,6 +427,11 @@ body {
   height: 50px;
 }
 
+/*
+  ========================================
+  Footer
+  ========================================
+*/
 .footer1 {
   width: 100%;
   height: auto;
@@ -477,8 +484,9 @@ body {
 
 .footer-heading {
   width: 100%;
-  height: 30px;
-  padding: 20px;
+  height: 60px;
+  padding: 10px;
+  text-align: center;
 }
 
 .footer2 ul {

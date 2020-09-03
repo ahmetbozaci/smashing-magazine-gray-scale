@@ -377,3 +377,52 @@ body {
   padding: 50px;
   margin: 2%;
 }
+
+.last-art3 {
+  width: 46%;
+  height: 800px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 50px;
+  margin: 2%;
+  gap: 30px;
+}
+
+.last-art4{
+  width: 46%;
+  height: 800px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+  margin: 2%;
+}
+
+.icon{
+  width: 45%;
+  height: 230px;
+}
+
+.title-sp{
+  width: 90%;
+  height: 50px;
+  align-self: center;
+}
+
+
+.text{
+  width: 90%;
+  height: 100px;
+  align-self: center;
+}
+
+.input{
+  width: 90%;
+  height: 50px;
+  align-self: center;
+}
+.text-click{
+  width: 70%;
+  height: 50px;
+ 
+}

@@ -239,6 +239,7 @@ body {
 .blue h2 {
   width: 60%;
   height: 120px;
+  padding: 10px;
 }
 
 .blue-button {
@@ -274,6 +275,7 @@ body {
   height: 30px;
   align-self: center;
   grid-area: title;
+  padding: 5px;
 }
 
 .person-of-week > p {
@@ -310,6 +312,7 @@ body {
   width: 200px;
   height: 35px;
   margin: -3.2rem 6.8rem;
+  padding: 11px;
 }
 
 .article3-text {
@@ -335,6 +338,7 @@ body {
 .red-title {
   width: 50%;
   height: 90px;
+  padding: 10px;
 }
 
 .red-text {
@@ -357,4 +361,19 @@ body {
   width: 60%;
   flex-direction: column;
   justify-content: space-around;
+}
+
+/* last articles */
+.last-articles {
+  margin: 50px 0;
+  flex-wrap: wrap;
+}
+
+.last-art {
+  width: 46%;
+  height: 450px;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 50px;
+  margin: 2%;
 }

@@ -218,3 +218,34 @@ body {
   height: 50px;
   margin: 100px auto;
 }
+
+/* blue section */
+
+.blue {
+  width: 100%;
+  height: 1060px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.blue-date {
+  width: 40%;
+  height: 20px;
+}
+
+.blue-text,
+.blue h2 {
+  width: 60%;
+  height: 120px;
+}
+
+.blue-button {
+  width: 30%;
+  height: 60px;
+}
+
+.blue-image {
+  width: 60%;
+  height: 520px;
+}

@@ -249,3 +249,32 @@ body {
   width: 60%;
   height: 520px;
 }
+
+.person-of-week {
+  display: grid;
+  width: 100%;
+  height: 300px;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 1fr 3fr;
+  grid-template-areas: "image  title" "image  text";
+}
+
+.person-of-week > div {
+  width: 80%;
+  height: 250px;
+  margin: auto;
+  grid-area: image;
+}
+
+.person-of-week > h3 {
+  width: 20%;
+  height: 30px;
+  align-self: center;
+  grid-area: title;
+}
+
+.person-of-week > p {
+  width: 70%;
+  height: 200px;
+  grid-area: text;
+}

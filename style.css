@@ -227,6 +227,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  margin-bottom: 2em;
 }
 
 .blue-date {
@@ -252,11 +253,13 @@ body {
 
 .person-of-week {
   display: grid;
-  width: 100%;
+  width: 96%;
   height: 300px;
   grid-template-columns: 1fr 5fr;
   grid-template-rows: 1fr 3fr;
   grid-template-areas: "image  title" "image  text";
+  border-radius: 0;
+  margin: auto
 }
 
 .person-of-week > div {
@@ -277,4 +280,43 @@ body {
   width: 70%;
   height: 200px;
   grid-area: text;
+}
+
+/* article3 section */
+
+.article3 {
+  width: 48%;
+  height: 380px;
+  border-radius: 0px;
+  margin: 10px;
+  position: relative;
+
+}
+.article3-avatar {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  top: 100px;
+  left: 20px;
+
+}
+.article3-author {
+  width: 150px;
+  height: 30px;
+  margin: 4.8rem 6.8rem;
+}
+
+.article3-title {
+  width: 200px;
+  height: 35px;
+  margin: -3.2rem 6.8rem;
+ 
+}
+
+.article3-text {
+  width: 80%;
+  height: 125px;
+  color: white;
+  margin: 5rem 6.8rem;
+ 
 }

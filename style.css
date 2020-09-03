@@ -10,9 +10,10 @@
 body {
   height: 100%;
 }
+
 /*
   ========================================
-  General 
+  General
   ========================================
 */
 .flex {
@@ -40,7 +41,7 @@ body {
 }
 
 .gray5 {
-  background-color: #ffffff;
+  background-color: #fff;
   border-radius: 10px;
 }
 
@@ -81,6 +82,7 @@ body {
   Main
   ========================================
 */
+
 /* section 1 */
 .front-title {
   width: 20%;
@@ -99,9 +101,10 @@ body {
 .article1 {
   width: 48%;
   height: 400px;
-  border-radius: 0px;
+  border-radius: 0;
   margin: 10px;
 }
+
 .avatar {
   width: 75px;
   height: 75px;
@@ -157,11 +160,12 @@ body {
 }
 
 .title-sp {
-  width: 40%;
-  height: 25%;
   margin: 1.3rem 0 0 0;
   color: white;
   padding: 0.4rem;
+  width: 90%;
+  height: 50px;
+  align-self: center;
 }
 
 .author-sp {
@@ -176,7 +180,7 @@ body {
   margin: 5rem 0.8rem 0.8rem 0.8rem;
 }
 
-/* section 3*/
+/* section 3 */
 
 .sign-up {
   margin: 2.3rem auto;
@@ -291,10 +295,11 @@ body {
 .article3 {
   width: 48%;
   height: 380px;
-  border-radius: 0px;
+  border-radius: 0;
   margin: 10px;
   position: relative;
 }
+
 .article3-avatar {
   width: 75px;
   height: 75px;
@@ -302,6 +307,7 @@ body {
   top: 100px;
   left: 20px;
 }
+
 .article3-author {
   width: 150px;
   height: 30px;
@@ -404,12 +410,6 @@ body {
   height: 230px;
 }
 
-.title-sp {
-  width: 90%;
-  height: 50px;
-  align-self: center;
-}
-
 .text {
   width: 90%;
   height: 100px;
@@ -422,6 +422,7 @@ body {
   height: 50px;
   align-self: center;
 }
+
 .text-click {
   width: 70%;
   height: 50px;

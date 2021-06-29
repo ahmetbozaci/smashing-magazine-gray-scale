@@ -19,9 +19,9 @@
 
 👤 **Ahmet Bozacı**
 
-- Github: [@ahmetbozaci ](https://github.com/ahmetbozaci )
-- Twitter: [@ahmtbozaci](https://twitter.com/ahmtbozaci)
-- Linkedin: [linkedin](https://linkedin.com/in/meron-ogbai-467414198/)
+- Github: [ahmetbozaci ](https://github.com/ahmetbozaci )
+- Twitter: [ahmtbozaci](https://twitter.com/ahmtbozaci)
+- Linkedin: [ahmetbozaci](https://linkedin.com/in/meron-ogbai-467414198/)
 
 👤 **Jorge Torres**
 
@@ -33,6 +33,6 @@
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](enter issues url here).
+Feel free to check the [issues page](../../issues).
 
 ## Show your support
